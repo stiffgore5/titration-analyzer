@@ -1,0 +1,16 @@
+# Virtual environment (rebuild it from requirements.txt instead of committing it)
+.venv/
+
+# Python bytecode cache, created automatically when modules are imported
+__pycache__/
+*.pyc
+
+# pytest's cache of previous test runs
+.pytest_cache/
+
+# Streamlit secrets (passwords, API keys) — never commit these
+.streamlit/secrets.toml
+
+# Editor and OS clutter
+.vscode/
+Thumbs.db
